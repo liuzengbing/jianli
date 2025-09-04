@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>新增供应商</title>
+		<!-- 新 Bootstrap5 核心 CSS 文件 -->
+		<link rel="stylesheet" href="https://cdn.staticfile.net/twitter-bootstrap/5.1.1/css/bootstrap.min.css">
+		 
+		<!-- 最新的 Bootstrap5 核心 JavaScript 文件 -->
+		<script src="https://cdn.staticfile.net/twitter-bootstrap/5.1.1/js/bootstrap.bundle.min.js"></script>
+		<style>
+			#btn {
+				text-align: right;
+			}
+			div {
+				margin-bottom: 20px;
+			}
+			
+		</style>
+	</head>
+	<body>
+		<div class="container" >
+			<h1>新增供应商</h1>
+			<hr>
+			<form>
+				<div>
+					供应商名称
+					<input type="text" placeholder="请输入供应商名称" class="form-control"/>
+				</div>
+				
+				<div>
+					统一信用代码
+					<input type="text" placeholder="请输入统一信用代码" class="form-control"/>
+				</div>
+				
+				<div>
+					地址
+					<input type="text" placeholder="请输入供应商地址" class="form-control"/>
+				</div>
+				
+				<div>
+					是否合格<br>
+					<input type="radio" name="radio"/>是&nbsp;
+					<input type="radio" name="radio"/>否
+				</div>
+				
+				<div>
+					联系人
+					<input type="text" placeholder="请输入联系人姓名" class="form-control">
+					
+				</div>
+				
+				<div>
+					电话
+					<input type="text" placeholder="请输入联系电话" class="form-control">
+				</div>
+				
+				<div>
+					供应商类型
+					<select class="form-select">
+						<option>请输入供应商类型</option>
+						<option>1</option>
+						<option>2</option>
+						<option>3</option>
+						<option>4</option>
+					</select>
+				</div>
+				
+				<div>
+					<input type="checkbox" class="form-check-input">是否为金牌供应商
+				</div>
+				
+				<div>
+					备注<br>
+					<textarea class="form form-control" placeholder="请输入备注信息"></textarea>
+				</div>
+				
+				<div id="btn">
+					<button class="btn btn-sm btn-secondary">取消</button>
+					<button class="btn btn-sm btn-info">保存</button>
+				</div>
+				
+				
+			</form>
+		</div>
+	</body>
+</html>
